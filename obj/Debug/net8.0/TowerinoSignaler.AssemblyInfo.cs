@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TowerinoSignaler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad75ba86ab3d41517300daeb677c6b0e2b57c6f3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+247ae31722cd87e9ec7c9e9d5b41fd7bda35239e")]
 [assembly: System.Reflection.AssemblyProductAttribute("TowerinoSignaler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TowerinoSignaler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
