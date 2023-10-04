@@ -31,3 +31,4 @@ C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\ne
 C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\TowerinoSignaler.pdb
 C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\TowerinoSignaler.genruntimeconfig.cache
 C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\ref\TowerinoSignaler.dll
+C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\TowerinoSignaler.sourcelink.json
