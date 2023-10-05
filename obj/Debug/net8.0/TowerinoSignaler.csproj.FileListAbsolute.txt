@@ -32,3 +32,37 @@ C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\ne
 C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\TowerinoSignaler.genruntimeconfig.cache
 C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\ref\TowerinoSignaler.dll
 C:\Users\modes\Desktop\7 semester\TowerinoSignaler\TowerinoSignaler\obj\Debug\net8.0\TowerinoSignaler.sourcelink.json
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.dll
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\refint\TowerinoSignaler.dll
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.pdb
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\appsettings.json
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\TowerinoSignaler.exe
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\TowerinoSignaler.deps.json
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\TowerinoSignaler.runtimeconfig.json
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\TowerinoSignaler.dll
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\TowerinoSignaler.pdb
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\arnas\Desktop\SignalR_API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.csproj.AssemblyReference.cache
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.AssemblyInfoInputs.cache
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.AssemblyInfo.cs
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.csproj.CoreCompileInputs.cache
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.sourcelink.json
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets\msbuild.TowerinoSignaler.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets\msbuild.build.TowerinoSignaler.props
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.TowerinoSignaler.props
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.TowerinoSignaler.props
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\scopedcss\bundle\TowerinoSignaler.styles.css
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.csproj.CopyComplete
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\TowerinoSignaler.genruntimeconfig.cache
+C:\Users\arnas\Desktop\SignalR_API\obj\Debug\net8.0\ref\TowerinoSignaler.dll

@@ -460,19 +460,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\modes\\.nuget\\packages\\": {}
+    "C:\\Users\\arnas\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\modes\\Desktop\\7 semester\\TowerinoSignaler\\TowerinoSignaler\\TowerinoSignaler.csproj",
+      "projectUniqueName": "C:\\Users\\arnas\\Desktop\\SignalR_API\\TowerinoSignaler.csproj",
       "projectName": "TowerinoSignaler",
-      "projectPath": "C:\\Users\\modes\\Desktop\\7 semester\\TowerinoSignaler\\TowerinoSignaler\\TowerinoSignaler.csproj",
-      "packagesPath": "C:\\Users\\modes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\modes\\Desktop\\7 semester\\TowerinoSignaler\\TowerinoSignaler\\obj\\",
+      "projectPath": "C:\\Users\\arnas\\Desktop\\SignalR_API\\TowerinoSignaler.csproj",
+      "packagesPath": "C:\\Users\\arnas\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\arnas\\Desktop\\SignalR_API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\modes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\arnas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
