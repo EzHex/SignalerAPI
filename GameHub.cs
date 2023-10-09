@@ -31,7 +31,7 @@ public class GameHub : Hub
 
     public async Task CreateSession()
     {
-        string sessionKey = GenerateSessionKey();
+        var sessionKey = GenerateSessionKey();
         await Groups.AddToGroupAsync(Context.ConnectionId, sessionKey);
         await Clients.Caller.SendAsync("SessionCreated", sessionKey);
         Sessions.Add(Context.ConnectionId, sessionKey);
@@ -41,31 +41,28 @@ public class GameHub : Hub
     {
         //TODO string comparison doesn't work ?
         //Iterate through all sessions
-        foreach (KeyValuePair<string, string> session in Sessions)
+        if (Sessions.Any(session => string.Compare(session.Value, sessionKey.Replace("\u200B", ""), StringComparison.Ordinal) == 0))
         {
-            //Check if session exists
-            if (String.CompareOrdinal(sessionKey, session.Value) == 0)
-            {
-                await Groups.AddToGroupAsync(Context.ConnectionId, sessionKey);
-                await Clients.Caller.SendAsync("JoinedSession", sessionKey);
-                await Clients.Group(sessionKey).SendAsync("PlayerJoined", Context.ConnectionId);
-                Sessions.Add(Context.ConnectionId, sessionKey);
-                return;
-            }
+            await Groups.AddToGroupAsync(Context.ConnectionId, sessionKey);
+            await Clients.Caller.SendAsync("JoinedSession", sessionKey);
+            await Clients.Group(sessionKey).SendAsync("PlayerJoined", Context.ConnectionId);
+            Sessions.Add(Context.ConnectionId, sessionKey);
+            return;
         }
+
         await Clients.Caller.SendAsync("SessionNotFound", sessionKey);
     }
 
     public async Task LeaveSession()
     {
-        string sessionKey = GetSessionKey(Context.ConnectionId);
+        var sessionKey = GetSessionKey(Context.ConnectionId);
         // ReSharper disable once ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract (LIES)
         if (sessionKey != null)
         {
             await Groups.RemoveFromGroupAsync(Context.ConnectionId, sessionKey);
             await Clients.Caller.SendAsync("LeftSession", sessionKey);
             await Clients.Group(sessionKey).SendAsync("PlayerLeft", Context.ConnectionId);
-            if (Sessions.ContainsKey(Context.ConnectionId)) Sessions.Remove(Context.ConnectionId);
+            Sessions.Remove(Context.ConnectionId);
         }
     }
 
