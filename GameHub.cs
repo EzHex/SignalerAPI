@@ -43,6 +43,7 @@ public class GameHub : Hub
         //Iterate through all sessions
         if (Sessions.Any(session => string.Compare(session.Value, sessionKey.Replace("\u200B", ""), StringComparison.Ordinal) == 0))
         {
+            sessionKey = sessionKey.Replace("\u200B", "");
             await Groups.AddToGroupAsync(Context.ConnectionId, sessionKey);
             await Clients.Caller.SendAsync("JoinedSession", sessionKey);
             await Clients.Group(sessionKey).SendAsync("PlayerJoined", Context.ConnectionId);
