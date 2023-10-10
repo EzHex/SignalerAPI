@@ -67,6 +67,12 @@ public class GameHub : Hub
         }
     }
 
+    public async Task StartGame()
+    {
+        var sessionKey = GetSessionKey(Context.ConnectionId);
+        await Clients.Group(sessionKey).SendAsync("GameStarted");
+    }
+
     #endregion
 
     #region Summons
