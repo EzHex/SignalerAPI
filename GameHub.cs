@@ -46,7 +46,7 @@ public class GameHub : Hub
             sessionKey = sessionKey.Replace("\u200B", "");
             await Groups.AddToGroupAsync(Context.ConnectionId, sessionKey);
             await Clients.Caller.SendAsync("JoinedSession", sessionKey);
-            await Clients.Group(sessionKey).SendAsync("PlayerJoined", Context.ConnectionId);
+            await Clients.OthersInGroup(sessionKey).SendAsync("PlayerJoined", Context.ConnectionId);
             Sessions.Add(Context.ConnectionId, sessionKey);
             return;
         }
