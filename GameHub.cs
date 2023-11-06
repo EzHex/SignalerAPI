@@ -116,6 +116,25 @@ public class GameHub : Hub
         await Clients.Group(GetSessionKey(Context.ConnectionId)).SendAsync("UpgradeTower", color);
     }
 
+    public async Task DegradeDamage(bool color)
+    {
+        await Clients.Group(GetSessionKey(Context.ConnectionId)).SendAsync("DegradeDamage", color);
+    }
+
+    public async Task DegradeSpeed(bool color)
+    {
+        await Clients.Group(GetSessionKey(Context.ConnectionId)).SendAsync("DegradeSpeed", color);
+    }
+    
+    public async Task DegradeHealth(bool color)
+    {
+        await Clients.Group(GetSessionKey(Context.ConnectionId)).SendAsync("DegradeHealth", color);
+    }
+    
+    public async Task DegradeTower(bool color)
+    {
+        await Clients.Group(GetSessionKey(Context.ConnectionId)).SendAsync("DegradeTower", color);
+    }
     #endregion
 
     #region UnitUpgrades
